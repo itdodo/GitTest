@@ -49,6 +49,7 @@ namespace Linq
 
         public static int Test(int num)
         {
+            num = num + 1;
             return num + 1;
         }
     }
